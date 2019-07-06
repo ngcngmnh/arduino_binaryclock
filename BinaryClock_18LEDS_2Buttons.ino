@@ -28,7 +28,7 @@ void setup() {
   pinMode(13, OUTPUT);
   //pinMode(14, OUTPUT); //xóa '//' khi dùng phần code ở cuối
   //pinMode(15, OUTPUT); //xóa '//' khi dùng phần code ở cuối
-  pinMode(16, OUTPUT); //pin 14 đến 19 là A2 đến A5 (analog in), ở đây dùng pin A2>A5 để hiển thị giờ
+  pinMode(16, OUTPUT); //pin 14 đến 19 là A0 đến A5 (analog in), ở đây dùng pin A2>A5 để hiển thị giờ
   pinMode(17, OUTPUT);
   pinMode(18, OUTPUT);
   pinMode(19, OUTPUT);
