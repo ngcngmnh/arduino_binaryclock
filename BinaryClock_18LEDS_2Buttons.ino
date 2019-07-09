@@ -121,11 +121,11 @@ void loop() {
 //Serial.println(sec_unit); //test
 //delay(1000);
 
-/*bonus đoạn code dùng led thể hiện am/pm, phải đặt ngay trước '//hours', không thể dùng chung với '//buttons'
+/*bonus đoạn code dùng led thể hiện am/pm, phải đặt ngay trước '//hours'
 
-if (hour < 12) {digitalwrite(14, HIGH); digitalwrite(15, LOW)}
+if (hour < 12) {digitalwrite(20, HIGH); digitalwrite(21, LOW)}
 else {
-  digitalwrite(15, HIGH); digitalwrite(14, LOW); //led màu khác nhau cho 2 pin 14, 15 (A0, A1)
+  digitalwrite(20, HIGH); digitalwrite(21, LOW); //led màu khác nhau cho 2 pin 20, 21
 }
 
 */
