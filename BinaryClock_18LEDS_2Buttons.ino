@@ -121,7 +121,7 @@ void loop() {
 //Serial.println(sec_unit); //test
 //delay(1000);
 
-/*bonus đoạn code dùng led thể hiện am/pm, phải đặt ngay trước '//hours'
+/*dùng led thể hiện am/pm, phải đặt ngay trước '//hours'
 
 if (hour < 12) {digitalwrite(20, HIGH); digitalwrite(21, LOW)}
 else {
